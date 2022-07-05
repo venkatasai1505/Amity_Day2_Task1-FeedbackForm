@@ -1,0 +1,36 @@
+body {
+  background-color: rgb(227, 127, 255);
+}
+#maindiv {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+input[type="submit"] {
+  background-color: green;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type="reset"] {
+  background-color: red;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: darkgreen;
+  color: lightblue;
+}
+
+input[type="reset"]:hover {
+  background-color: white;
+  color: blue;
+}
+.marg {
+  margin: 10px;
+}
